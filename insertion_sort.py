@@ -14,7 +14,13 @@ def insertion_sort_desc(arr):
 
 # Example usage
 if __name__ == "__main__":
+    # Example 1
     data = [9, 5, 1, 4, 3]
     print("Original array:", data)
     insertion_sort_desc(data)
     print("Sorted (descending):", data)
+
+    # Example 2
+    nums = [10, 2, 33, 5, 78, 1]
+    insertion_sort_desc(nums)
+    print("Sorted (descending):", nums)
